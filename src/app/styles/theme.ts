@@ -1,55 +1,43 @@
-export interface ThemeInterface {
-	borderRadius: string;
-	scapingElement: string;
-
-	colors: {
-		main: string;
-		secondary: string;
-		white: string;
-	};
-	font: {
-		fontMedium: string;
-		normal: string;
-		bold: string;
-		fontLarge: string;
-		fontFamily: string;
-	};
-
-	scaping: (num: number) => string;
-}
 export const light_theme = {};
 
 const globalFont = {
 	fontFamily: 'Montserrat Alternates',
 	fontMedium: '14px',
 	normal: '500',
-	bold: 'bold',
+	bold: '600',
 	fontLarge: '18px',
+};
+const globalScaping: ScapingTheme = {
+	scapingElement: '15px',
+	borderRadius: '14px',
+	scaping: (num: number) => `${num * 5}px`,
+	scapingContainer: '25px',
+};
+const globalColor: ColorTheme = {
+	gray: '#F2F2F2',
+	white: '#fff',
+	none: 'transparent',
 };
 
 export const myTheme: ThemeInterface = {
-	borderRadius: '14px',
-	scapingElement: '15px',
 	colors: {
-		main: '#DB5114',
-		white: '#fff',
+		main: '#4CAD73',
 		secondary: '#fff',
+		...globalColor,
 	},
 	font: {
 		...globalFont,
 	},
-	scaping: (num: number) => `${num * 5}px`,
+	...globalScaping,
 };
 export const myThemeDark: ThemeInterface = {
-	borderRadius: '14px',
-	scapingElement: '15px',
 	colors: {
 		main: '#111',
-		white: '#fff',
 		secondary: '#fff',
+		...globalColor,
 	},
 	font: {
 		...globalFont,
 	},
-	scaping: (num: number) => `${num * 5}px`,
+	...globalScaping,
 };
