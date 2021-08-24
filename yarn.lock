@@ -1228,21 +1228,6 @@
     opencollective-postinstall "^2.0.1"
     superstruct "^0.6.2"
 
-"@react-native-firebase/auth@^12.4.0":
-  version "12.4.0"
-  resolved "https://registry.npmjs.org/@react-native-firebase/auth/-/auth-12.4.0.tgz"
-  integrity sha512-xdCS3sOODHXIIDtGLdewCEJl8NR7UtQ4tHIylrdllUUdpHU7dh+DHvKeTn7oLfDmdmJBCSvDlVf5s6XGHyifZA==
-
-"@react-native-firebase/firestore@^12.4.0":
-  version "12.4.0"
-  resolved "https://registry.npmjs.org/@react-native-firebase/firestore/-/firestore-12.4.0.tgz"
-  integrity sha512-H3cQnZCaXVwg0usRewATpRGlGfUdG+YeGiB/c8ncd40bZzMUfq4vyyLafwYJ7+iedgkxx67fdAwKZ+yNdbS8Mg==
-
-"@react-native-firebase/functions@^12.4.0":
-  version "12.4.0"
-  resolved "https://registry.npmjs.org/@react-native-firebase/functions/-/functions-12.4.0.tgz"
-  integrity sha512-0FSQ6suu9+d9Trwop7HtdOC8orqUQ6+ruviwUdqOoqr9RXxM1JJ1Wa3ON/PNGpLhZJA88mpw6M8i0i3u2ZxnjA==
-
 "@react-native-firebase/messaging@^12.4.0":
   version "12.4.0"
   resolved "https://registry.npmjs.org/@react-native-firebase/messaging/-/messaging-12.4.0.tgz"

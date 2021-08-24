@@ -1,4 +1,4 @@
-package com.wolf.food_distribution;
+package com.digital_unicorn.diamant_app;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "FoodDistribution";
+    return "DiamantApp";
   }
 }

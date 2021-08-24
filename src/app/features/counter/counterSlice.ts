@@ -12,7 +12,7 @@ const initState: CounterState = {
 };
 export const incrementAsync = createAsyncThunk('counter/fetchCount', async (amount: number) => {
 	const res = await fetchCount(amount);
-	return res.data;
+	return res;
 });
 const counterSlice = createSlice({
 	name: 'counter',
@@ -27,10 +27,7 @@ const counterSlice = createSlice({
 		incrementByAmount: (state, action: PayloadAction<number>) => {
 			state.value += action.payload;
 		},
-		incrementSaga: (state, action: PayloadAction<number>) => {
-			state.status = 'loading';
-		},
-		incrementSagaSuccess: (state, action: PayloadAction<number>) => {
+		incrementSuccess: (state, action: PayloadAction<number>) => {
 			state.value += action.payload;
 			state.status = 'idle';
 		},
@@ -47,8 +44,7 @@ const counterSlice = createSlice({
 	},
 });
 
-export const {decrement, increment, incrementByAmount, incrementSaga, incrementSagaSuccess} =
-	counterSlice.actions;
+export const {decrement, increment, incrementByAmount, incrementSuccess} = counterSlice.actions;
 
 export const selectCount = (state: RootState) => state.counter.value;
 export const isLoadingCounting = (state: RootState) => state.counter.status === 'loading';

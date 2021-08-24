@@ -131,7 +131,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.wolf.food_distribution"
+        applicationId "com.digital_unicorn.diamant_app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

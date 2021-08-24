@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* FoodDistributionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* FoodDistributionTests.m */; };
+		00E356F31AD99517003FC87E /* DiamantAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DiamantAppTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		38A0B72AC9DD49C6B13FD3B2 /* MontserratAlternates-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4DC7791D8C04AAFB575561B /* MontserratAlternates-SemiBoldItalic.ttf */; };
-		4C8FC9F75B3060F285BA1332 /* libPods-FoodDistribution-FoodDistributionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CB8739970386EDD0AD6EF4 /* libPods-FoodDistribution-FoodDistributionTests.a */; };
+		4C8FC9F75B3060F285BA1332 /* libPods-DiamantApp-DiamantAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CB8739970386EDD0AD6EF4 /* libPods-DiamantApp-DiamantAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8A22C3B36C1F41ED81A2A221 /* MontserratAlternates-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 329FC07A720648A9A88C5AD4 /* MontserratAlternates-Regular.ttf */; };
-		8BC0533C67AF0747C93DDF47 /* libPods-FoodDistribution.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 299E1C8C0F0D3033100D977E /* libPods-FoodDistribution.a */; };
+		8BC0533C67AF0747C93DDF47 /* libPods-DiamantApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 299E1C8C0F0D3033100D977E /* libPods-DiamantApp.a */; };
 		BE0DE389CC0141E9A699CD9B /* MontserratAlternates-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F5607C4284D4735BEA7E314 /* MontserratAlternates-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
@@ -25,30 +25,30 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = FoodDistribution;
+			remoteInfo = DiamantApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* FoodDistributionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodDistributionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* DiamantAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiamantAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* FoodDistributionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodDistributionTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* FoodDistribution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDistribution.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FoodDistribution/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = FoodDistribution/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = FoodDistribution/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = FoodDistribution/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = FoodDistribution/main.m; sourceTree = "<group>"; };
-		299E1C8C0F0D3033100D977E /* libPods-FoodDistribution.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FoodDistribution.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F21AD99517003FC87E /* DiamantAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiamantAppTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* DiamantApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiamantApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DiamantApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DiamantApp/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DiamantApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DiamantApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DiamantApp/main.m; sourceTree = "<group>"; };
+		299E1C8C0F0D3033100D977E /* libPods-DiamantApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DiamantApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		329FC07A720648A9A88C5AD4 /* MontserratAlternates-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MontserratAlternates-Regular.ttf"; path = "../assets/fonts/MontserratAlternates-Regular.ttf"; sourceTree = "<group>"; };
-		58CB8739970386EDD0AD6EF4 /* libPods-FoodDistribution-FoodDistributionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FoodDistribution-FoodDistributionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BEFA0ECC08DD387F3FD3B26 /* Pods-FoodDistribution-FoodDistributionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodDistribution-FoodDistributionTests.release.xcconfig"; path = "Target Support Files/Pods-FoodDistribution-FoodDistributionTests/Pods-FoodDistribution-FoodDistributionTests.release.xcconfig"; sourceTree = "<group>"; };
+		58CB8739970386EDD0AD6EF4 /* libPods-DiamantApp-DiamantAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DiamantApp-DiamantAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BEFA0ECC08DD387F3FD3B26 /* Pods-DiamantApp-DiamantAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiamantApp-DiamantAppTests.release.xcconfig"; path = "Target Support Files/Pods-DiamantApp-DiamantAppTests/Pods-DiamantApp-DiamantAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		7F5607C4284D4735BEA7E314 /* MontserratAlternates-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MontserratAlternates-SemiBold.ttf"; path = "../assets/fonts/MontserratAlternates-SemiBold.ttf"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = FoodDistribution/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B647F58DE3CC62BE2143F33D /* Pods-FoodDistribution-FoodDistributionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodDistribution-FoodDistributionTests.debug.xcconfig"; path = "Target Support Files/Pods-FoodDistribution-FoodDistributionTests/Pods-FoodDistribution-FoodDistributionTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C03850D7F3977A2FBFE0D827 /* Pods-FoodDistribution.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodDistribution.debug.xcconfig"; path = "Target Support Files/Pods-FoodDistribution/Pods-FoodDistribution.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = DiamantApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B647F58DE3CC62BE2143F33D /* Pods-DiamantApp-DiamantAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiamantApp-DiamantAppTests.debug.xcconfig"; path = "Target Support Files/Pods-DiamantApp-DiamantAppTests/Pods-DiamantApp-DiamantAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C03850D7F3977A2FBFE0D827 /* Pods-DiamantApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiamantApp.debug.xcconfig"; path = "Target Support Files/Pods-DiamantApp/Pods-DiamantApp.debug.xcconfig"; sourceTree = "<group>"; };
 		D4DC7791D8C04AAFB575561B /* MontserratAlternates-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MontserratAlternates-SemiBoldItalic.ttf"; path = "../assets/fonts/MontserratAlternates-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
-		E1976B3767F92FD9CCF83C14 /* Pods-FoodDistribution.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodDistribution.release.xcconfig"; path = "Target Support Files/Pods-FoodDistribution/Pods-FoodDistribution.release.xcconfig"; sourceTree = "<group>"; };
+		E1976B3767F92FD9CCF83C14 /* Pods-DiamantApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiamantApp.release.xcconfig"; path = "Target Support Files/Pods-DiamantApp/Pods-DiamantApp.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -57,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C8FC9F75B3060F285BA1332 /* libPods-FoodDistribution-FoodDistributionTests.a in Frameworks */,
+				4C8FC9F75B3060F285BA1332 /* libPods-DiamantApp-DiamantAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,20 +65,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BC0533C67AF0747C93DDF47 /* libPods-FoodDistribution.a in Frameworks */,
+				8BC0533C67AF0747C93DDF47 /* libPods-DiamantApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* FoodDistributionTests */ = {
+		00E356EF1AD99517003FC87E /* DiamantAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* FoodDistributionTests.m */,
+				00E356F21AD99517003FC87E /* DiamantAppTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = FoodDistributionTests;
+			path = DiamantAppTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -89,7 +89,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* FoodDistribution */ = {
+		13B07FAE1A68108700A75B9A /* DiamantApp */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -99,15 +99,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = FoodDistribution;
+			name = DiamantApp;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				299E1C8C0F0D3033100D977E /* libPods-FoodDistribution.a */,
-				58CB8739970386EDD0AD6EF4 /* libPods-FoodDistribution-FoodDistributionTests.a */,
+				299E1C8C0F0D3033100D977E /* libPods-DiamantApp.a */,
+				58CB8739970386EDD0AD6EF4 /* libPods-DiamantApp-DiamantAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -125,10 +125,10 @@
 		792ACE0322F0FA4AECB9CF3A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C03850D7F3977A2FBFE0D827 /* Pods-FoodDistribution.debug.xcconfig */,
-				E1976B3767F92FD9CCF83C14 /* Pods-FoodDistribution.release.xcconfig */,
-				B647F58DE3CC62BE2143F33D /* Pods-FoodDistribution-FoodDistributionTests.debug.xcconfig */,
-				5BEFA0ECC08DD387F3FD3B26 /* Pods-FoodDistribution-FoodDistributionTests.release.xcconfig */,
+				C03850D7F3977A2FBFE0D827 /* Pods-DiamantApp.debug.xcconfig */,
+				E1976B3767F92FD9CCF83C14 /* Pods-DiamantApp.release.xcconfig */,
+				B647F58DE3CC62BE2143F33D /* Pods-DiamantApp-DiamantAppTests.debug.xcconfig */,
+				5BEFA0ECC08DD387F3FD3B26 /* Pods-DiamantApp-DiamantAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -143,9 +143,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* FoodDistribution */,
+				13B07FAE1A68108700A75B9A /* DiamantApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* FoodDistributionTests */,
+				00E356EF1AD99517003FC87E /* DiamantAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				792ACE0322F0FA4AECB9CF3A /* Pods */,
@@ -159,8 +159,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* FoodDistribution.app */,
-				00E356EE1AD99517003FC87E /* FoodDistributionTests.xctest */,
+				13B07F961A680F5B00A75B9A /* DiamantApp.app */,
+				00E356EE1AD99517003FC87E /* DiamantAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,9 +168,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* FoodDistributionTests */ = {
+		00E356ED1AD99517003FC87E /* DiamantAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "FoodDistributionTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DiamantAppTests" */;
 			buildPhases = (
 				808A9E2DC71DC98BF9246D22 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -183,14 +183,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = FoodDistributionTests;
-			productName = FoodDistributionTests;
-			productReference = 00E356EE1AD99517003FC87E /* FoodDistributionTests.xctest */;
+			name = DiamantAppTests;
+			productName = DiamantAppTests;
+			productReference = 00E356EE1AD99517003FC87E /* DiamantAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* FoodDistribution */ = {
+		13B07F861A680F5B00A75B9A /* DiamantApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "FoodDistribution" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DiamantApp" */;
 			buildPhases = (
 				AB15DB46E19B9C573F3CBE2D /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -205,9 +205,9 @@
 			);
 			dependencies = (
 			);
-			name = FoodDistribution;
-			productName = FoodDistribution;
-			productReference = 13B07F961A680F5B00A75B9A /* FoodDistribution.app */;
+			name = DiamantApp;
+			productName = DiamantApp;
+			productReference = 13B07F961A680F5B00A75B9A /* DiamantApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -227,7 +227,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "FoodDistribution" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "DiamantApp" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -240,8 +240,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* FoodDistribution */,
-				00E356ED1AD99517003FC87E /* FoodDistributionTests */,
+				13B07F861A680F5B00A75B9A /* DiamantApp */,
+				00E356ED1AD99517003FC87E /* DiamantAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -289,15 +289,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FoodDistribution-FoodDistributionTests/Pods-FoodDistribution-FoodDistributionTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DiamantApp-DiamantAppTests/Pods-DiamantApp-DiamantAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FoodDistribution-FoodDistributionTests/Pods-FoodDistribution-FoodDistributionTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DiamantApp-DiamantAppTests/Pods-DiamantApp-DiamantAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodDistribution-FoodDistributionTests/Pods-FoodDistribution-FoodDistributionTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DiamantApp-DiamantAppTests/Pods-DiamantApp-DiamantAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5DA0F73F30AB8AC0F457568E /* [CP-User] [RNFB] Core Configuration */ = {
@@ -328,7 +328,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FoodDistribution-FoodDistributionTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DiamantApp-DiamantAppTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -350,7 +350,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FoodDistribution-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DiamantApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -363,15 +363,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FoodDistribution/Pods-FoodDistribution-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DiamantApp/Pods-DiamantApp-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FoodDistribution/Pods-FoodDistribution-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DiamantApp/Pods-DiamantApp-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodDistribution/Pods-FoodDistribution-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DiamantApp/Pods-DiamantApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -400,7 +400,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* FoodDistributionTests.m in Sources */,
+				00E356F31AD99517003FC87E /* DiamantAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,7 +418,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* FoodDistribution */;
+			target = 13B07F861A680F5B00A75B9A /* DiamantApp */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -426,14 +426,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B647F58DE3CC62BE2143F33D /* Pods-FoodDistribution-FoodDistributionTests.debug.xcconfig */;
+			baseConfigurationReference = B647F58DE3CC62BE2143F33D /* Pods-DiamantApp-DiamantAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = FoodDistributionTests/Info.plist;
+				INFOPLIST_FILE = DiamantAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,17 +447,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodDistribution.app/FoodDistribution";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiamantApp.app/DiamantApp";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BEFA0ECC08DD387F3FD3B26 /* Pods-FoodDistribution-FoodDistributionTests.release.xcconfig */;
+			baseConfigurationReference = 5BEFA0ECC08DD387F3FD3B26 /* Pods-DiamantApp-DiamantAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = FoodDistributionTests/Info.plist;
+				INFOPLIST_FILE = DiamantAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -471,19 +471,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodDistribution.app/FoodDistribution";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiamantApp.app/DiamantApp";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C03850D7F3977A2FBFE0D827 /* Pods-FoodDistribution.debug.xcconfig */;
+			baseConfigurationReference = C03850D7F3977A2FBFE0D827 /* Pods-DiamantApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = FoodDistribution/Info.plist;
+				INFOPLIST_FILE = DiamantApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -494,7 +494,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = FoodDistribution;
+				PRODUCT_NAME = DiamantApp;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -503,12 +503,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1976B3767F92FD9CCF83C14 /* Pods-FoodDistribution.release.xcconfig */;
+			baseConfigurationReference = E1976B3767F92FD9CCF83C14 /* Pods-DiamantApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = FoodDistribution/Info.plist;
+				INFOPLIST_FILE = DiamantApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -519,7 +519,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = FoodDistribution;
+				PRODUCT_NAME = DiamantApp;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -651,7 +651,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "FoodDistributionTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DiamantAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -660,7 +660,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "FoodDistribution" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DiamantApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -669,7 +669,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "FoodDistribution" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "DiamantApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
